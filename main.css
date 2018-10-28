@@ -2,7 +2,6 @@
     transition: all .1s ease-in;
     margin: 0 auto
 }
-
 main {
     background: #3399CC;
     border: 10px solid #2B81AC;
@@ -10,88 +9,72 @@ main {
     font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
     text-align: center;
 }
-
 section {
     max-width: 100%;
-    width: 800px;
+    width: 500px;
 }
-
 ul {
     border: 1px solid white;
     padding-left: 0;
     font-size: 0;
 }
-
 li {
     font-size: 16px;
     display: inline-block;
     padding: 20px;
     border: 1px solid white;
+    box-sizing: border-box;
     text-align: center;
 }
-
 p:after {
     content: "℃"
 }
-
 ul:hover li{
     opacity: 0.5;
 }
-
 ul:hover li:hover {
     opacity: 1;
 }
-
 .lisbon {
     width: 50%;
     background: #3399CC;
 }
-
 .paris {
     width: 25%;
     background: #33CCCC;
 }
-
 .belgrade {
     width: 25%;
     background: #996699;
 }
-
 .moscow {
     width: 25%;
     background: #C24747;
 }
-
 .tel {
     width: 25%;
     background: #E2674A;
 }
-
 .cair {
     width: 25%;
     background: #FFCC66;
 }
-
 .newy {
     width: 25%;
     background: #99CC99;
 }
-
 .newd {
     width: 25%;
     background: #669999;
 }
-
 .san {
     width: 50%;
     background: #CC6699;
 }
-
 .tokyo {
     width: 25%;
     background: #339966;
 }
-
 .sydney {
     width: 100%;
     background: #666699;
